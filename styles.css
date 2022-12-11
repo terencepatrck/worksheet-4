@@ -29,7 +29,7 @@ ul{
     justify-content: space-evenly;
 }
 .push{
-    padding-left: auto;
+    margin-left: auto;
 }
 
 li{
