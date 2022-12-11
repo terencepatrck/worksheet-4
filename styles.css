@@ -28,7 +28,9 @@ ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+.push{
+    padding-left: auto;
+}
 
 /* section one flex grow and shrink */
 
