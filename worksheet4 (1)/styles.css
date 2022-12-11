@@ -4,11 +4,6 @@
 body{
     background-color: limegreen;
 }
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
 
 /* header sytles */
 
@@ -17,6 +12,20 @@ header {
     padding: 10px 0px 10px 0px;
     
     
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
