@@ -18,29 +18,6 @@ h1{
     font-size: 60px;
     text-align: center;
 }
-ul{
-    list-style: none;
-    padding: 5px;
-}
-
-.container-navigation{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.push{
-    margin-left: auto;
-}
-
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;;
-    border-radius: 10px;
-    background-color: aliceblue;
-}
 
 
 /* section one flex grow and shrink */
@@ -68,7 +45,7 @@ li{
     background-color: lightgreen;
     
     height: 200px;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
 }
 
 .box3 {
@@ -85,9 +62,6 @@ li{
 .section-two {
     background-color: orangered;
     height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -96,10 +70,6 @@ li{
 .section-three {
     background-color: lightcoral;
     height: 800px;
-   display: flex;
-   flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -114,9 +84,6 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     
 }
 
@@ -128,18 +95,4 @@ iframe {
 
 }
 
-.media-container{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
-}
-.media-container .mediacontent{
-    flex: 1;
-    padding: 10px;
-}
-.mediacontent{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: navy;
-    font-size: 20px;
-}
+
